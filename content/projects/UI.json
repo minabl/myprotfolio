@@ -1,0 +1,45 @@
+[
+    {
+        "project": "Hyper Game and Quiz",
+        "url": "https://www.youtube.com/watch?v=GRovBQPYtY4",
+        "repo": "Public",
+        "descriptionTitle": " ",
+        "description": "Manage and extract text from various document types, and search documents with relevance scores using Solr.",
+        "imageOptions": [
+            { "key": "size", "value": "large" }
+        ],
+       
+        "stack": [
+            { "key": "unity", "name": "Unity", "type": "devicon" },
+            { "key": "csharp", "name": "C#", "type": "devicon" }
+        ]
+    },
+    {
+        "project": "Mobile Education App",
+        
+        "repo": "Public",
+        "descriptionTitle": " ",
+        "description": "Mathematics exercises for first-grade students.",
+        "images": [
+            { "key": "portfolio", "hover": "left", "h": "100", "w": "120", "url": "/img/ScreenExercice_Math.png" },
+            { "key": "portfolio1", "hover": "left", "h": "100", "w": "100", "url": "/img/ScreenshotExercice_Math.png" }
+        ],
+        "stack": [
+            { "key": "android", "name": "Android", "type": "devicon" },
+            { "key": "java", "name": "Java", "type": "devicon" }
+        ]
+    },
+    {
+        "project": "Fragrance of Light",
+        
+        "repo": "Public",
+        "descriptionTitle": " ",
+        "description": "3D models of the bottle.\nHD renders of multiple perspectives of the bottle in different contexts.\nVisual and graphic presentation of the fragrance universe.",
+        "images": [
+            { "key": "portfolio3", "hover": "left", "h": "100", "w": "100", "url": "/img/parfun.png" }
+        ],
+        "stack": [
+            { "key": "blender", "name": "Blender", "type": "devicon" }
+        ]
+    }
+]

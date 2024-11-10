@@ -1,0 +1,67 @@
+[
+    {
+        "project": "Film Library",
+        "url": "#",
+        "repo": "Private",
+        "descriptionTitle": "Create a Spring MVC application",
+        "description": "to manage Film and Category entities with CRUD operations.\nAdd a Many-to-Many relationship between the Film and Actor entities and between Film and Actor.\nImplement reusable Thymeleaf fragments and derived queries.\nAllow image upload and display associated with the entities.\nConfigure pagination and sorting of entities displayed in the interface.\nCreate REST APIs for the entities and document them with Swagger.\nDevelop a public interface for the film library, accessible without authentication.\nSecure the application with Spring Security to manage authentication and authorization based on user roles.",
+        "imageOptions": [],
+        "images": [
+            { "key": "mock-stack", "hover": "right", "h": "500", "w": "556", "url": "/img/portfolio-mock_single-bg.png" },
+            { "key": "mock-stack", "hover": "right", "h": "500", "w": "556", "url": "/img/film.png" },
+            { "key": "mock-stack", "hover": "left", "h": "500", "w": "556", "url": "/img/film.png" }
+        ],
+        "stack": [
+            { "key": "java", "name": "Java", "type": "devicon" },
+            { "key": "springboot", "name": "Spring Boot", "type": "devicon" },
+            { "key": "bootstrap", "name": "Bootstrap", "type": "devicon" },
+            { "key": "springsecurity", "name": "Spring Security", "type": "devicon" },
+            { "key": "thymeleaf", "name": "Thymeleaf", "type": "devicon" },
+            { "key": "swagger", "name": "Swagger", "type": "devicon" },
+            { "key": "git", "name": "Git(Hub)", "type": "devicon" },
+            { "key": "mysql", "name": "MySQL", "type": "devicon" }
+        ]
+    },
+    {
+        "project": "RechercheSolr",
+        "url": "https://www.youtube.com/watch?v=qQoA9V_jkMI",
+        "repo": "Public",
+        "descriptionTitle": "Indexing",
+        "description": "Manage and extract text from various document types, and search documents with relevance scores using Solr.",
+        "imageOptions": [
+            { "key": "size", "value": "large" }
+        ],
+        "images": [
+            { "key": "portfolio", "hover": "left", "h": "397", "w": "556", "url": "/img/solr.png" }
+        ],
+        "stack": [
+            { "key": "java", "name": "Java", "type": "devicon" },
+            { "key": "springboot", "name": "Spring Boot", "type": "devicon" },
+            { "key": "tika", "name": "Apache Tika", "type": "devicon" },
+            { "key": "solr", "name": "Apache Solr", "type": "devicon" }
+        ]
+    },
+    {
+        "project": "Personalized Diet Plan",
+        "url": "#",
+        "repo": "Private",
+        "descriptionTitle": "Indexing",
+        "description": "Provide personalized diets and sell dietary supplements.",
+        "imageOptions": [
+            { "key": "size", "value": "large" }
+        ],
+        "images": [
+            { "key": "portfolio", "hover": "left", "h": "297", "w": "556", "url": "/img/regim.png" }
+        ],
+        "stack": [
+            { "key": "angular", "name": "Angular", "type": "devicon" },
+            { "key": "springboot", "name": "Spring Boot", "type": "devicon" },
+            { "key": "jwt", "name": "JWT", "type": "devicon" },
+            { "key": "html5", "name": "HTML5", "type": "devicon" },
+            { "key": "css3", "name": "CSS3", "type": "devicon" },
+            { "key": "git", "name": "Git(Hub)", "type": "devicon" },
+            { "key": "bootstrap", "name": "Bootstrap", "type": "devicon" },
+            { "key": "mysql", "name": "MySQL", "type": "devicon" }
+        ]
+    }
+]
