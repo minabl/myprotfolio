@@ -21,8 +21,8 @@
         "descriptionTitle": " ",
         "description": "Mathematics exercises for first-grade students.",
         "images": [
-            { "key": "portfolio", "hover": "left", "h": "100", "w": "120", "url": "/img/ScreenExercice_Math.png" },
-            { "key": "portfolio1", "hover": "left", "h": "100", "w": "100", "url": "/img/ScreenshotExercice_Math.png" }
+            { "key": "portfolio", "hover": "left", "h": "100", "w": "120", "url": "/myprotfolio/img/ScreenExercice_Math.png" },
+            { "key": "portfolio1", "hover": "left", "h": "100", "w": "100", "url": "/myprotfolio/img/ScreenshotExercice_Math.png" }
         ],
         "stack": [
             { "key": "android", "name": "Android", "type": "devicon" },
@@ -36,7 +36,7 @@
         "descriptionTitle": " ",
         "description": "3D models of the bottle.\nHD renders of multiple perspectives of the bottle in different contexts.\nVisual and graphic presentation of the fragrance universe.",
         "images": [
-            { "key": "portfolio3", "hover": "left", "h": "100", "w": "100", "url": "/img/parfun.png" }
+            { "key": "portfolio3", "hover": "left", "h": "100", "w": "100", "url": "/myprotfolio/img/parfun.png" }
         ],
         "stack": [
             { "key": "blender", "name": "Blender", "type": "devicon" }

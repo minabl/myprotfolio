@@ -360,3 +360,57 @@
 	}
   }
   
+  .iconClick {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+	transition: transform 0.2s ease, color 0.3s ease;
+  
+	/* Optional: Add hover effects */
+	&:hover {
+	  transform: scale(1.1);
+	  color: var(--primary-color);  // Change color on hover
+	}
+  
+	/* Optional: Add focus effects for accessibility */
+	&:focus {
+	  outline: 2px solid var(--primary-color);
+	}
+  
+	/* Icon size */
+	svg {
+	  width: 1.5rem;
+	  height: 1.5rem;
+	}
+  }
+  
+  .iframeContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	padding-top: 56.25%;  // Aspect ratio 16:9 (adjust based on iframe content)
+	background-color: var(--background-dim);
+	border-radius: 1rem;
+	overflow: hidden;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  
+	iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  border: none;
+	}
+  
+	/* Responsive adjustments for mobile */
+	@include media($max: $mobile) {
+	  padding-top: 75%;  // 4:3 aspect ratio for smaller screens
+	}
+  }
+  

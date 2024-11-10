@@ -7,9 +7,9 @@
         "description": "to manage Film and Category entities with CRUD operations.\nAdd a Many-to-Many relationship between the Film and Actor entities and between Film and Actor.\nImplement reusable Thymeleaf fragments and derived queries.\nAllow image upload and display associated with the entities.\nConfigure pagination and sorting of entities displayed in the interface.\nCreate REST APIs for the entities and document them with Swagger.\nDevelop a public interface for the film library, accessible without authentication.\nSecure the application with Spring Security to manage authentication and authorization based on user roles.",
         "imageOptions": [],
         "images": [
-            { "key": "mock-stack", "hover": "right", "h": "500", "w": "556", "url": "/img/portfolio-mock_single-bg.png" },
-            { "key": "mock-stack", "hover": "right", "h": "500", "w": "556", "url": "/img/film.png" },
-            { "key": "mock-stack", "hover": "left", "h": "500", "w": "556", "url": "/img/film.png" }
+            { "key": "mock-stack", "hover": "right", "h": "500", "w": "556", "url": "/myprotfolio/img/portfolio-mock_single-bg.png" },
+            { "key": "mock-stack", "hover": "right", "h": "500", "w": "556", "url": "/myprotfolio/img/film.png" },
+            { "key": "mock-stack", "hover": "left", "h": "500", "w": "556", "url": "/myprotfolio/img/film.png" }
         ],
         "stack": [
             { "key": "java", "name": "Java", "type": "devicon" },
@@ -32,7 +32,7 @@
             { "key": "size", "value": "large" }
         ],
         "images": [
-            { "key": "portfolio", "hover": "left", "h": "397", "w": "556", "url": "/img/solr.png" }
+            { "key": "portfolio", "hover": "left", "h": "397", "w": "556", "url": "/myprotfolio/img/solr.png" }
         ],
         "stack": [
             { "key": "java", "name": "Java", "type": "devicon" },
@@ -51,7 +51,7 @@
             { "key": "size", "value": "large" }
         ],
         "images": [
-            { "key": "portfolio", "hover": "left", "h": "297", "w": "556", "url": "/img/regim.png" }
+            { "key": "portfolio", "hover": "left", "h": "297", "w": "556", "url": "/myprotfolio/img/regim.png" }
         ],
         "stack": [
             { "key": "angular", "name": "Angular", "type": "devicon" },

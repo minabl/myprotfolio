@@ -82,13 +82,13 @@ export default function FeaturedProject({ content, index }) { // Corrigé: ajout
                   ></iframe>
                 ) : (
                   <a href={url} target="_blank" rel="noopener noreferrer">
-                    <Icon icon={['fab', 'arrow-right-to-bracket']} />
+                    <FontAwesomeIcon icon="fa-regular fa-circle-play" />
                   </a>
                 )}
               </div>
             ) : (
               <div onClick={handleIconClick} className={css.iconClick}>
-                <Icon icon={['fab', 'play-circle']} /> {/* Example icon for showing iframe */}
+                 <FontAwesomeIcon icon="fa-regular fa-circle-play" /> {/* Example icon for showing iframe */}
               </div>
             )}
           </m.div>
