@@ -1,20 +1,17 @@
-   
 /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-	/* config options here */
 	reactStrictMode: true,
-	env: {
-	  dir: '/',
-	},
-	basePath: '/**', // ajoutez le chemin de base
+	basePath: '/myprotfolio',  // Spécifie le sous-répertoire pour GitHub Pages
+	assetPrefix: '/myprotfolio/', // Spécifie le chemin pour les ressources statiques
 	images: {
-		unoptimized: true, // désactive l'optimisation pour GitHub Pages
-		domains: ['minabl.github.io'], // Autorise uniquement ce domaine pour charger des images
-	  },
-	 
-	
-  }
-   
-  export default nextConfig
+	  unoptimized: true,         // Nécessaire pour GitHub Pages
+	  loader: 'imgix',           // Utilise un autre loader si nécessaire
+	  domains: ['minabl.github.io'], // Ajoutez le domaine de l’hébergement des images
+	},
+  };
+  
+  module.exports = nextConfig;
+
+  
