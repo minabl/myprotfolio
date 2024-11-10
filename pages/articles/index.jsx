@@ -7,7 +7,7 @@ import settings 	from '../../content/_settings.json'
 import ComingSoon from "../../components/sections/comingsoon"
 
 //
-export default function Articles({ mediumArticles }) {
+export default function Articles() {
 	return (
 		<>	
 			<Color colors={colors} />
@@ -20,6 +20,7 @@ export default function Articles({ mediumArticles }) {
 }
 
 // This gets called on every request
+/*
 export async function getServerSideProps({ res }) {
 
 	res.setHeader(
@@ -38,4 +39,4 @@ export async function getServerSideProps({ res }) {
 	] )
 
 	return { props: { mediumArticles } }
-}
+}*/
