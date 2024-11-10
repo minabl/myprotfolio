@@ -8,6 +8,7 @@ import Icon from '../../utils/icon.util'
 
 import css from '../../../styles/sections/projects/featured.module.scss'
 import content from '../../../content/projects/featured.json'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function FeaturedProject({ content, index }) { // Corrigé: ajouté 'index' dans les paramètres
   const { project, url, repo, descriptionTitle, description, stack, imageOptions, images } = content
