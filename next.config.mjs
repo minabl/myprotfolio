@@ -8,7 +8,7 @@ const nextConfig = {
 	env: {
 	  dir: '/',
 	},
-	basePath: '/myprotfolio', // ajoutez le chemin de base
+	basePath: '/**', // ajoutez le chemin de base
 	images: {
 		unoptimized: true, // désactive l'optimisation pour GitHub Pages
 		domains: ['minabl.github.io'], // Autorise uniquement ce domaine pour charger des images
