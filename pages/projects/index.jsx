@@ -19,6 +19,7 @@ export default function Projects({ user, repos }) {
 }
 
 // This gets called on every request
+/*
 export async function getServerSideProps({ res }) {
 
 	res.setHeader(
@@ -61,4 +62,4 @@ export async function getServerSideProps({ res }) {
 	if (!repos || !user) { return { notFound: true,	} }
 
 	return { props: { repos, user } }
-}
+}*/
