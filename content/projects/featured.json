@@ -8,7 +8,6 @@
         "imageOptions": [],
         "images": [
             { "key": "mock-stack", "hover": "right", "h": "500", "w": "556", "url": "/myprotfolio/img/portfolio-mock_single-bg.png" },
-            { "key": "mock-stack", "hover": "right", "h": "500", "w": "556", "url": "/myprotfolio/img/film.png" },
             { "key": "mock-stack", "hover": "left", "h": "500", "w": "556", "url": "/myprotfolio/img/film.png" }
         ],
         "stack": [

@@ -8,7 +8,6 @@ import Icon from '../../utils/icon.util'
 
 import css from '../../../styles/sections/projects/featured.module.scss'
 import content from '../../../content/projects/featured.json'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function FeaturedProject({ content, index }) { // Corrigé: ajouté 'index' dans les paramètres
   const { project, url, repo, descriptionTitle, description, stack, imageOptions, images } = content
@@ -83,13 +82,13 @@ export default function FeaturedProject({ content, index }) { // Corrigé: ajout
                   ></iframe>
                 ) : (
                   <a href={url} target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon="fa-regular fa-circle-play" />
+                    <Icon icon={['fa', 'play-circle']} />
                   </a>
                 )}
               </div>
             ) : (
               <div onClick={handleIconClick} className={css.iconClick}>
-                 <FontAwesomeIcon icon="fa-regular fa-circle-play" /> {/* Example icon for showing iframe */}
+                <Icon icon={['fa', 'play-circle']} />link {/* Example icon for showing iframe */}
               </div>
             )}
           </m.div>
@@ -115,31 +114,31 @@ export default function FeaturedProject({ content, index }) { // Corrigé: ajout
 }
 
 const container = {
-  hidden: {
-    transition: {
-      delayChildren: 0.125,
-      staggerChildren: 0.0625
-    }
-  },
-  visible: {
-    transition: {
-      delayChildren: 0.125,
-      staggerChildren: 0.25,
-    }
-  },
-  rest: {
-    transition: {
-      delayChildren: 0,
-      staggerChildren: 0,
-    }
-  },
-  hover: {
-    transition: {
-      delayChildren: 0,
-      staggerChildren: 0,
-    }
-  }
-};
+	hidden: { 
+		transition: {
+			delayChildren: 0.125,
+			staggerChildren: 0.0625
+		}
+	},
+	visible: {
+		transition: {
+			delayChildren: 0.125,
+			staggerChildren: 0.25,
+		}
+	},
+	rest: {
+		transition: {
+			delayChildren: 0,
+			staggerChildren: 0,
+		}
+	},
+	hover: {
+		transition: {
+			delayChildren: 0,
+			staggerChildren: 0,
+		}
+	}
+}
 
 const item = {
   hidden: {
