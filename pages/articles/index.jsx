@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react"
 
-import Recent 		from '../../components/sections/articles/recent'
-
 import Color 	from '../../components/utils/page.colors.util'
 
 import colors 		from '../../content/articles/_colors.json'
@@ -14,10 +12,7 @@ export default function Articles({ mediumArticles }) {
 		<>	
 			<Color colors={colors} />
 			<ComingSoon />
-			{/** <>
-			<Color colors={colors} />
-			<Recent mediumArticles={mediumArticles}/>
-		</>*/}
+		
 		</>
 		
 		

@@ -1,4 +1,4 @@
-import Section 		from '../../structure/section';
+/*import Section 		from '../../structure/section';
 import Container 	from '../../structure/container';
 
 import Image from 'next/image'
@@ -56,4 +56,4 @@ export default function Recent({ mediumArticles }) {
 			</Container>
 		</Section>
 	)
-}
+}*/
