@@ -5,18 +5,14 @@
 const nextConfig = {
 	/* config options here */
 	reactStrictMode: true,
-	env: {
-	  dir: '/',
-	},
+	output: 'export',
+	distDir: "out",
 	images: {
-	  remotePatterns: [
-		{
-		  protocol: 'https',
-		  hostname: '**.github.io',
-		  pathname: '/badge/**',
-		},
-	  ],
-	},
+		unoptimized: true,
+		loader: "akamai",
+		path: "",
+		domains: ["placeimg.com", "mobirise.com"],
+  },
   }
    
   export default nextConfig
