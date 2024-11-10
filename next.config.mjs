@@ -5,14 +5,18 @@
 const nextConfig = {
 	/* config options here */
 	reactStrictMode: true,
-	output: 'export',
-	distDir: "out",
+	env: {
+	  dir: '/',
+	},
 	images: {
-		unoptimized: true,
-		loader: "akamai",
-		path: "",
-		domains: ["placeimg.com", "mobirise.com"],
-  },
+	  remotePatterns: [
+		{
+		  protocol: 'https',
+		  hostname: '**.github.io',
+		  pathname: '/myprotfolio/**',
+		},
+	  ],
+	},
   }
    
   export default nextConfig
