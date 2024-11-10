@@ -10,8 +10,7 @@ const nextConfig = {
 	  loader: 'imgix',           // Utilise un autre loader si nécessaire
 	  domains: ['minabl.github.io'], // Ajoutez le domaine de l’hébergement des images
 	},
-  };
-  
-  module.exports = nextConfig;
+  };  
+module.exports = nextConfig;
 
   
