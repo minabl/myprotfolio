@@ -8,15 +8,12 @@ const nextConfig = {
 	env: {
 	  dir: '/',
 	},
+	basePath: '/myprotfolio', // ajoutez le chemin de base
 	images: {
-	  remotePatterns: [
-		{
-		  protocol: 'https',
-		  hostname: '**.github.io',
-		  pathname: '/myprotfolio/**',
-		},
-	  ],
-	},
+		unoptimized: true, // désactive l'optimisation pour GitHub Pages
+	  },
+	 
+	
   }
    
   export default nextConfig
