@@ -88,7 +88,7 @@ export default function FeaturedProject({ content, index }) { // Corrigé: ajout
               </div>
             ) : (
               <div onClick={handleIconClick} className={css.iconClick}>
-                <Icon icon={['fa', 'play-circle']} />link {/* Example icon for showing iframe */}
+                <Icon icon={['fas', 'play-circle']} /> {/* Example icon for showing iframe */}
               </div>
             )}
           </m.div>
@@ -96,19 +96,19 @@ export default function FeaturedProject({ content, index }) { // Corrigé: ajout
       </div>
 
       <div className={css.imageContainer}>
-        <span className={`${css.imageAnimationContainer}`}>
-          {images.map(({ key, url, hover, h, w }, index) => {
-            hover = (hover === 'left') ? hoverLeft : hoverRight;
-            return (
-              <m.div key={`${index}-${key}`} variants={item}>
-                <m.div variants={hover}>
-                  <Image src={url} alt="x" height={h} width={w} />
-                </m.div>
-              </m.div>
-            );
-          })}
-        </span>
-      </div>
+				<span className={`${css.imageAnimationContainer}`}>
+					{ images.map( ({key, url, hover, h, w }, index) => {
+						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
+						return (
+							<m.div key={`${index}-${key}`} variants={item}>
+								<m.div variants={hover}>
+									<Image src={url} alt="x" height={h} width={w} />
+								</m.div>
+							</m.div>
+						)}
+					) }
+				</span>
+			</div>
     </m.section>
   );
 }

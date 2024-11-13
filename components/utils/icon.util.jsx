@@ -4,11 +4,11 @@ import { useEffect, useState } from 'react'
 // Font Awesome packages
 const { library, config } = require('@fortawesome/fontawesome-svg-core')
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 // Load icons into
-library.add( fab)
+library.add( fab,faPlayCircle)
 
 /**
  * 
