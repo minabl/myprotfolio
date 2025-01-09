@@ -21,7 +21,7 @@
     },    
     {
         "project": "Film Library",
-        
+        "url": "",
         "repo": "Private",
         "descriptionTitle": "Create a Spring MVC application",
         "description": "to manage Film and Category entities with CRUD operations.\nAdd a Many-to-Many relationship between the Film and Actor entities and between Film and Actor.\nImplement reusable Thymeleaf fragments and derived queries.\nAllow image upload and display associated with the entities.\nConfigure pagination and sorting of entities displayed in the interface.\nCreate REST APIs for the entities and document them with Swagger.\nDevelop a public interface for the film library, accessible without authentication.\nSecure the application with Spring Security to manage authentication and authorization based on user roles.",
@@ -62,7 +62,7 @@
     },
     {
         "project": "Personalized Diet Plan",
-       
+        "url": "",
         "repo": "Private",
         "descriptionTitle": "Indexing",
         "description": "Provide personalized diets and sell dietary supplements.",
