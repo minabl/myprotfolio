@@ -1,7 +1,27 @@
 [
     {
+        "project": "ClimateLearn",
+        "url": "https://youtu.be/eYYDS0R3yuo?si=HOi2u_eSVodqK-V_",
+        "repo": "Public",
+        "descriptionTitle": "mobile",
+        "description": "ClimateLearn is an interactive educational app dedicated to raising awareness about climate change. The main goal is to enable users to learn about environmental issues through enriched courses and engaging quizzes.",
+        "imageOptions": [
+            { "key": "size", "value": "large" }
+        ],
+        "images": [
+            { "key": "portfolio", "hover": "left", "h": "397", "w": "556", "url": "/myprotfolio/img/eco1.png" },
+            { "key": "image1", "hover": "top", "h": "397", "w": "556", "url": "/myprotfolio/img/eco2.png" },
+            { "key": "image2", "hover": "right", "h": "397", "w": "556", "url": "/myprotfolio/img/eco3.png" }
+        ],
+        "stack": [
+            { "key": "react-native", "name": "React Native", "type": "devicon" },
+            { "key": "redux", "name": "Redux", "type": "devicon" },
+            { "key": "firebase", "name": "Firebase", "type": "devicon" }
+        ]
+    },    
+    {
         "project": "Film Library",
-        "url": "#",
+        
         "repo": "Private",
         "descriptionTitle": "Create a Spring MVC application",
         "description": "to manage Film and Category entities with CRUD operations.\nAdd a Many-to-Many relationship between the Film and Actor entities and between Film and Actor.\nImplement reusable Thymeleaf fragments and derived queries.\nAllow image upload and display associated with the entities.\nConfigure pagination and sorting of entities displayed in the interface.\nCreate REST APIs for the entities and document them with Swagger.\nDevelop a public interface for the film library, accessible without authentication.\nSecure the application with Spring Security to manage authentication and authorization based on user roles.",
@@ -42,7 +62,7 @@
     },
     {
         "project": "Personalized Diet Plan",
-        "url": "#",
+       
         "repo": "Private",
         "descriptionTitle": "Indexing",
         "description": "Provide personalized diets and sell dietary supplements.",
